@@ -1,6 +1,6 @@
 package example;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import example.model.Student;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
