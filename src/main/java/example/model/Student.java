@@ -21,6 +21,14 @@ public class Student {
     @Column(name = "middle_name")
     private String middleName;
 
+    public Student() {
+    }
+
+    public Student(String firstName, String middleName){
+        this.firstName = firstName;
+        this.middleName = middleName;
+    }
+
     public Integer getId() {
         return id;
     }
